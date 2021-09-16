@@ -1,0 +1,40 @@
+#customize-controls .control-section-novellite-1 .accordion-section-title:hover,
+#customize-controls .control-section-novellite-1 .accordion-section-title:focus {
+	background-color: #fff;
+}
+
+.control-section-novellite-1 .accordion-section-title .button {
+	margin-top:  -4px;
+	font-weight: 400;
+	margin-left: 8px;
+}
+
+	.rtl .control-section-novellite-1 .accordion-section-title .button {
+		margin-left:  0;
+		margin-right: 8px;
+	}
+
+a.button.pro-button-secondary.alignright {
+    background: #999;
+    color: white;
+    border: 1px;
+}
+/*Home Page Settings */
+
+li#accordion-section-section_default_home h3 {
+    background: #a5a7ad !important;
+    color: #fff !important;
+}
+.default-home-wrap {
+    display: inline-flex;
+}
+.default-home-wrap a.default-home {
+    padding: 5px;
+    border: 2px solid #0085ba;
+    background: #0085ba;
+    text-decoration: none;
+    border-radius: 2px;
+    display: block;
+    color: #fff;
+    width: 100px;
+}
