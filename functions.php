@@ -518,6 +518,9 @@ wp_enqueue_script( 'novellite-admin-settings', get_template_directory_uri()  . '
       wp_localize_script( 'novellite-admin-settings', 'novellite', apply_filters( 'novellite_theme_js_localize', $localize ) );
 }
 
+
+
+
 if ( ! function_exists( 'wp_body_open' ) ) {
 
     /**
