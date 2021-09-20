@@ -1,0 +1,185 @@
+
+/*************************************/
+/***** Started theme css **/
+.about-wrap .header{
+    margin-bottom: 35px;
+}
+
+.svg .wp-badge{
+
+background-image: url('../image/icon.png');
+}
+
+.about-wrap h1 {
+    margin: .2em 200px 0 0;
+    padding: 0;
+    color: #32373c;
+    line-height: 1.2;
+    font-size: 2.5em;
+    font-weight: 400;
+}
+.appearance_page_thunk_started{
+background:#fff;
+}
+
+.appearance_page_thunk_started .theme_link a.ztabtn.button{
+    color: #FFFFFF;
+    border-color: #FF6D00;
+    background: #FF6D00;
+}
+.appearance_page_thunk_started .theme_link{
+background:#fff;
+/*box-shadow: 0px 0px 10px 0px #D0EAF5;*/
+margin-right:5%;
+margin-bottom:40px;
+/*width: 46.4%;*/
+width: 47%;
+padding:20px;
+box-sizing: border-box;
+}
+.appearance_page_thunk_started .theme_link:nth-child(4), .appearance_page_thunk_started .theme_link:nth-child(2){
+margin-right:0%;
+}
+
+@media (min-width: 768px){
+.theme_link {
+    width: 18%;
+    display: inline-block;
+    /*float: left;*/
+   padding: 1%;
+}
+}
+
+
+/* Style the tab */
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  /*border: 1px solid #ccc;
+  background-color: #f1f1f1;*/
+  margin-bottom: 20px;
+
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  /*background-color: #ddd;*/
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  /*background-color: #ccc;*/
+  color: #0073aa;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  /*border: 1px solid #ccc;*/
+  border-top: none;
+  /*box-shadow: 0px 0px 10px 0px #D0EAF5;*/
+
+}
+
+
+.theme_link{
+box-shadow: 0px 0px 10px 0px #D0EAF5;
+width: 50%;
+}
+
+.theme_link p{
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 19px;
+}
+
+
+.content-wrap{
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.main{
+width: 70%;
+}
+
+
+.sidebar-wrap{
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+.sidebar{
+    
+    padding: 30px 5px 5px;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: 50px;
+}
+
+.sidebar-section{
+    /*border: 1px solid #e1e1e1;*/
+    box-shadow: 0px 0px 10px 0px #D0EAF5;
+    margin-bottom : 20px;
+    padding: 10px;
+}
+
+.sidebar-section p{
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+
+.tabs-list a{
+    display: inline-block;
+    padding: 20px;
+    color: #111;
+    text-decoration: none;
+    font-size: 15px;
+}
+.tabs-list a{
+    background: #eaeaea;
+}
+.tabs-list a.active{
+    background: #FFF;
+}
+
+.open-shop-menu-page-wrapper .open-shop-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+        align-items: flex-start;
+}
+
+.open-shop-menu-page-wrapper .open-shop-content .postbox.open-shop-recommend-plugins, 
+.open-shop-menu-page-wrapper .open-shop-content .postbox.open-shop-useful-plugins {
+    width: 100%;
+}
+
+.open-shop-menu-page-wrapper .open-shop-content .postbox{
+  width:48%;
+} 
+
+
+.open-shop-container .postbox .inside {
+    margin: 15px 0!important;
+    position: relative;
+}

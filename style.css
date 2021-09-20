@@ -68,6 +68,7 @@ h6 {
      font-family: 'Open Sans', sans-serif;
 }
 
+
 /* =WordPress Core
 -------------------------------------------------------------- */
 .alignnone {
@@ -2066,6 +2067,8 @@ border-top: none;
 .page-content .sidebar h3, .footer-widget-area h3{
     color:#000000;
     margin-left:0;
+    font-size: 16px;
+    font-weight: 400;
 }
 .footer-widget-area h3{
 border-bottom:1px dashed #ddd;
@@ -2143,6 +2146,11 @@ height:auto;
 .post_thumbnil a.image-hvr{
 position: relative;
     display: inline-block;
+}
+
+.sidebar .sidebar_widget h2{
+    font-size: 18px;
+    font-weight: 400px;
 }
 /* Back To Top Style
 ========================================================*/

@@ -1,0 +1,298 @@
+*{
+	box-sizing: border-box;
+}
+.filters-wrap {
+    display: inline-block;
+    color: #000;
+    font-weight: 600;
+}
+.themehunk-site-key-link{
+	 background: #da1818cc;
+    color: #fff;
+    font-size: 17px;
+    position: absolute;
+    right: 50px;
+   	top: 14px;;
+    padding: 8px 17px;
+    border-radius: 2px;
+}
+
+.themehunk-site-key-link.activated{
+	 background: #74b956;
+}
+.themehunk-site-key-link.activated:hover{
+    color: #fff;
+    background: #73c151;
+}
+
+.themhunk-key-success>a:focus{
+    color: #fff;
+    box-shadow: unset;
+}
+
+.themehunk-site-key-link:hover{
+    color: #fff;
+    background: #d81e00;
+}
+
+
+.themehunk-site-key-link:focus{
+	color: #fff;
+	box-shadow: unset;
+}
+.themehunk-site-key-link:hover{
+	color: #fff;
+}
+.spinner-wrap {
+    text-align: center;
+}
+.spinner-wrap .spinner {
+    float: none;
+}
+.footer-import-button-wrap {
+    margin-top: -70px;
+    padding: 0 20px;
+}
+/*  wp-filter  */
+.wp-filter .section-left{
+	display: inline-block;
+    float: left;
+    padding: 15px;
+}
+.wp-filter .section-right{
+	display: inline-block;
+	float: left;
+	margin-top:8px;
+}
+.wp-filter .section-right .filters-wrap{
+	float: left;
+}
+.wp-filter .section-right .search-form{
+	float: right;
+}
+.filter-links.themehunk-category li>a:active,
+.filter-links.themehunk-category li>a:focus{
+	box-shadow: none;
+}
+.themes  ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+.themehunkdemo.themes{
+	position: relative;
+	cursor: pointer;
+	margin-bottom: 4%;
+	margin-right: 4%;
+	width: 30.6% !important;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.themehunkdemo.themes:hover{
+	 box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.themehunkdemo.themes:hover.themehunkdemo.themes a:after{
+	opacity: 0.4;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.themehunkdemo.themes:nth-of-type(3n+3){
+	margin-right: 0;
+}
+.themehunkdemo.themes img{
+	display: block;
+	height: auto;
+	width: 100%!important;
+	max-width: 100%;
+}
+.themehunk-site-library-container{
+	background: #fff;
+	position: relative;
+	overflow: hidden;
+	z-index: 50;
+}
+h3.theme-name{
+	color: #171c21;
+    display: inline-block;
+    margin: 0;
+    padding: 20px;
+    width: 68%;
+}
+.themehunk-site-library-container .theme-actions{
+    background: #d4d6d41a;
+    display: none;
+    float: right;
+    margin: 2px;
+    margin-top: 4px;
+    padding: 10px;
+}
+.themehunkdemo.themes a{
+	display: block;
+	overflow: hidden;
+}
+.themehunkdemo.themes a:after{
+	background: #000;
+	content: '';
+	height: 100%;
+	opacity: 0;	
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+.themehunkdemo.themes:hover .themehunk-site-library-container .theme-actions{
+	display: block;
+}
+/*Inside the preview */ 
+.wp-full-overlay-sidebar-content h3.theme-name{
+	padding: 3px !important;
+}
+.themehunk-sites-preview .plugin-card {
+	border: 0;
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 0;
+	width: 100%;
+}
+.themehunk-sites-preview .plugin-card .title{
+	width: 50%;
+}
+.themehunk-sites-preview .plugin-card .button{
+	width: 40%;
+}
+.themehunk-sites-preview .plugin-card .dashicons{
+	display: none;
+}
+.install-theme-info .theme-screenshot{
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	height: auto;
+	max-width: 100%;
+	width: 100%;
+}
+.themehunk-sites-preview .footer-import-button-wrap .button.button-hero{
+	width: 100%;
+	text-align: center;
+}
+.wp-core-ui .themehunk-sites-preview .button{
+	border-radius: 25px;
+}
+
+.button.hide-if-no-customize.themehunk-demo-import.button-primary{
+background: #4CAF50;
+border-color: #4CAF50;
+}
+.button.hide-if-no-customize.themehunk-demo-import.button-primary:focus{
+box-shadow: 0 0 0 1px #fff, 0 0 0 3px #4CAF50;
+}
+.button.hide-if-no-customize.go-pro.button-primary{
+background: #F44336;
+border-color: #F44336;
+}
+.button.hide-if-no-customize.go-pro.button-primary:focus{
+box-shadow: 0 0 0 1px #fff, 0 0 0 3px #F44336;
+}
+
+.button.button-hero.hide-if-no-customize.themehunk-demo-import.installing:before{
+	margin-top: 13px;
+}
+.button.hide-if-no-customize.go-pro.button-primary i{
+	font-size: 12px;
+    margin-top: 7px;
+}
+.button.button-hero.hide-if-no-customize.go-pro.button-primary i{
+    margin-top: 14px;
+    font-size: 15px;
+}
+
+.wp-full-overlay-footer .devices-wrapper{
+	margin-top: 24px;
+}
+.themehunk-sites-menu-page-wrapper>form{
+	text-align: center;
+}
+.themehunk-sites-menu-page-wrapper>form>label{
+	font-size: 21px;
+}
+.themehunk-sites-menu-page-wrapper form input[type="text"]{
+	border: 0;
+	height: 46px;
+	width: 400px;
+	font-size: 20px;
+	margin: 0 10px;
+	padding: 10px;
+}
+.themehunk-sites-menu-page-wrapper form input[type="submit"]{
+	border: 0;
+	border-radius: 5px;
+	cursor: pointer;
+	display: block;
+	background: #2ab7eff0;
+	color: #fff;
+	font-size: 17px;
+	position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+	padding: 12px 32px;
+	margin: 0;
+	margin-top: 30px;
+	text-transform: uppercase;
+}
+.themehunk-sites-menu-page-wrapper form input:focus{
+	outline: none;
+}
+
+/** Demo paid and upgrade icon **/
+.demo_upgrade:after, .demo_paid:after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #fff;
+    padding: 3px 6px 3px 0px;
+    border-radius: 0%;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 0px;
+    margin-top: 0px;
+    letter-spacing: 1px;
+    font-family: dashicons;
+    font-size: 25px;
+    border-radius: 0 0 0 2px;
+}
+.demo_upgrade:after{
+background: #14BD00;
+content:"\f147";
+}
+
+.demo_paid:after{
+background: #F44336;
+content:"\f335";
+}
+@media only screen and (min-width: 2000px){
+	.themehunkdemo.themes{
+		width: 17.6% !important;
+		margin-right: 3%;
+		margin-bottom: 3%;
+	}
+	.themehunkdemo.themes:nth-of-type(3n+3) {
+    margin-right: 3%;
+}
+	.themehunkdemo.themes:nth-of-type(5n+5){
+		margin-right: 0;
+	}
+}
+@media only screen and (max-width: 1120px){
+	.themehunkdemo.themes{
+		width: 47.5% !important;
+	}
+	.themehunkdemo.themes:nth-of-type(3n+3) {
+    margin-right: 4%;
+}
+	.themehunkdemo.themes:nth-of-type(2n+2){
+		margin-right: 0;
+	}
+}
