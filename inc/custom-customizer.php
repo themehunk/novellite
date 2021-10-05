@@ -206,7 +206,7 @@ $pages = get_pages(array(
 if(empty($pages)){
       $post_id = wp_insert_post(array (
        'post_type' => 'page',
-       'post_title' => 'Home Page',
+       'post_title' => 'Home',
        'post_content' => '',
        'post_status' => 'publish',
        'comment_status' => 'closed',   // if you prefer

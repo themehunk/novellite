@@ -85,6 +85,43 @@ add_theme_support( 'custom-header', $defaults );
         wp_enqueue_script( 'comment-reply' ); 
     }
 
+
+
+
+// Recommend plugins
+        add_theme_support( 'recommend-plugins', array(
+
+            'lead-form-builder' => array(
+                'name' => esc_html__( 'Lead Form Builder', 'novellite' ),
+                'img' => 'icon-128x128.png',
+                'active_filename' => 'lead-form-builder/lead-form-builder.php',
+            ),
+            'wp-popup-builder' => array(
+                'name' => esc_html__( 'WP Popup Builder – Popup Forms & Newsletter', 'novellite' ),
+                'img' => 'icon-128x128.png',
+                'active_filename' => 'wp-popup-builder/wp-popup-builder.php',
+            ),
+
+              'th-advance-product-search' => array(
+                'name' => esc_html__( 'TH Advance Product & Post Search', 'novellite' ),
+                'img' => 'icon-128x128.gif',
+                'active_filename' => 'th-advance-product-search/th-advance-product-search.php',
+            ),
+
+            'woocommerce' => array(
+                'name' => esc_html__( 'Woocommerce', 'novellite' ),
+                'img' => 'icon-128x128.png',
+                'active_filename' => 'woocommerce/woocommerce.php',
+            ),  
+             'themehunk-megamenu-plus' => array(
+                'name' => esc_html__( 'ThemeHunk Megamenu – Menu builder', 'novellite' ),
+                'img' => 'icon-128x128.png',
+                'active_filename' => 'themehunk-megamenu-plus/themehunk-megamenu.php',
+            ),
+        ) );
+
+    
+
     // Recommend plugins
         add_theme_support( 'novellite-recommend-plugins', array(
             'lead-form-builder' => array(
@@ -515,6 +552,8 @@ wp_enqueue_script( 'novellite-admin-settings', get_template_directory_uri()  . '
         'novelliteSitesLink'      => admin_url( 'themes.php?page=pt-one-click-demo-import' ),
         'novelliteSitesLinkTitle' => __( 'See Library', 'novellite' ),
       );
+
+      
       wp_localize_script( 'novellite-admin-settings', 'novellite', apply_filters( 'novellite_theme_js_localize', $localize ) );
 }
 

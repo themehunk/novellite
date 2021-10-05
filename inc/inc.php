@@ -15,4 +15,4 @@
 	include( trailingslashit( get_template_directory() ) . '/inc/custom-customizer.php' );
 	include( trailingslashit( get_template_directory() ) . '/inc/customizer.php' );
 	include( trailingslashit( get_template_directory() ) . '/inc/pro-button/class-customize.php' );
-	include( trailingslashit( get_template_directory() ) . '/inc/novellite-theme.php' );
+	include( trailingslashit( get_template_directory() ) . '/inc/th-option/th-option.php' );

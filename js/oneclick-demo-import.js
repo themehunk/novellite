@@ -86,10 +86,18 @@
 				})
 				.done(function (result) {
 
-					if( result.success ) {
-						var output = '<a href="'+ novellite.novelliteSitesLink +'" aria-label="'+ novellite.novelliteSitesLinkTitle +'">' + novellite.novelliteSitesLinkTitle +' </a>'
-						$message.removeClass( 'zta-sites-inactive zta-sites-notinstalled button button-primary install-now activate-now updating-message' )
-							.html( output );
+
+					if( result ) {
+
+
+			$message.removeClass( 'button-primary' )
+				.addClass( 'disabled' )
+				.html( 'Plugin Activated');
+
+
+						// var output = '<a href="'+ novellite.novelliteSitesLink +'" aria-label="'+ novellite.novelliteSitesLinkTitle +'">' + novellite.novelliteSitesLinkTitle +' </a>'
+						// $message.removeClass( 'zta-sites-inactive zta-sites-notinstalled button button-primary install-now activate-now updating-message' )
+						// 	.html( output );
 
 					} else {
 
@@ -142,7 +150,7 @@
 	 * Initialize FeaturedliteThemeAdmin
 	 */
 	$(function(){
-		FeaturedliteThemeAdmin.init();
+		//FeaturedliteThemeAdmin.init();
 	});
 
 })(jQuery);

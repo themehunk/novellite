@@ -1,8 +1,56 @@
+
+function openTab(evt, tabName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+
 (function($){
 
     NovelliteAdmin = {
         init: function(){
             this._bind();
+        },
+
+        _loaderActive: function($class,$message = "Installing") {
+             $class.addClass('updating-message').html($message);
+            $class.removeClass( 'button-primary' ).addClass( 'disabled' );
+        },
+        _homePageSetup: function() {
+            // home page settings
+            $class = jQuery('.default-home');
+            NovelliteAdmin._loaderActive($class,"Home Page Setup");
+            var data = {
+                'action': 'default_home',
+                'home': 'saved'
+            };
+            jQuery.post(ajaxurl, data, function(response) {
+                setTimeout(function() {
+
+                $class.removeClass( 'updating-message disabled' )
+                .addClass( 'button-primary activated' )
+                .html( 'Home Page Activated');
+                    jQuery('.default-home').css('background','#278d27');
+                               // location.reload(true);
+                }, 1000);
+
+            });
         },
 
         _installNow: function( event ) {
@@ -43,7 +91,7 @@
             event.preventDefault();
             var $card = jQuery( '.'+args.slug);
             var $button = $card.find( '.button-primary' );
-            $button.removeClass( 'install-now button-primary installed button-disabled updated-message' )
+            $button.removeClass( 'install-now button-primary installed button-disabled updated-message' );
 
             $card.addClass('updating-message').html('Installing Plugin');
             $button.addClass('already-started');
@@ -67,25 +115,27 @@
                 .html($message.data('msg'));
 
             $.ajax({
-                url  : mshopobject.ajaxUrl,
+                url  : novellite.ajaxUrl,
                 type : 'POST',
+
                 data : {
-                    action : 'm_shop_activeplugin',
+                    action : 'th_activeplugin',
                     init   :  $init,
                     slug   :  $slug
                 }
             }).done(function ( response ){
-            $message.removeClass( 'button-primary install-now activate-now updating-message' )
-                            .attr('disabled', 'disabled')
-                            .addClass('disabled')
-                            .text($message.data('activated'));
-            if($init=='themehunk-customizer/themehunk-customizer.php' || $init=='one-click-demo-import/one-click-demo-import.php'|| $init=='woocommerce/woocommerce.php'){
-                     if(jQuery('button.themehunk-customizer').hasClass('disabled') && jQuery('button.one-click-demo-import').hasClass('disabled') && jQuery('button.woocommerce').hasClass('disabled')){ 
-                            var output = '<a href="'+ mshopobject.topstoreSitesLink +'" aria-label="'+ mshopobject.topstoreSitesLinkTitle +'">' + mshopobject.topstoreSitesLinkTitle +' </a>';
-                            $(".demo-active").append(output);
-                           
-                        }
-                 }
+
+            	if( response.success) {
+                 $message.removeClass( 'button-primary updating-message' )
+                .addClass( 'disabled' )
+                .html( 'Plugin Activated');
+
+					} else {
+
+						$message.removeClass( 'updating-message' );
+
+					}
+
             });
         },
         /**
@@ -98,6 +148,7 @@
                 NovelliteAdmin._activePluginHomepage($slug,$init);
             },
         _bind: function(){               
+            $( document ).on('click'                     , '.default-home', NovelliteAdmin._homePageSetup);
             $( document ).on('click'                     , '.install-now', NovelliteAdmin._installNow);
             $( document ).on('click'                     , '.activate-now', NovelliteAdmin._activePlugin);
             $( document ).on('wp-plugin-install-error'   , NovelliteAdmin._installError);
@@ -126,4 +177,5 @@ NovelliteAdmin.init();
              $(document).ready(function() {
             _plugins_tabs();
              });
+
 })(jQuery);
