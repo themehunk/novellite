@@ -53,7 +53,7 @@ $pages = get_pages(array(
 if(empty($pages)){
       $post_id = wp_insert_post(array (
        'post_type' => 'page',
-       'post_title' => 'Home Page',
+       'post_title' => __('Home Page','novellite'),
        'post_content' => '',
        'post_status' => 'publish',
        'comment_status' => 'closed',   // if you prefer
@@ -189,7 +189,7 @@ function _check_homepage_setup(){
                             'plugin' => $slug,
                             'TB_iframe' => 'true',
                             'width' => '772',
-                            'height' => '349',
+                            'height' => '500',
 
                         ),
                         network_admin_url( 'plugin-install.php' )
@@ -201,7 +201,7 @@ function _check_homepage_setup(){
                  $plugin_add .= '<div class="th-column">';
 
                 $plugin_add .= '<div class="title-plugin">
-                <h4>'.esc_html( $plugin_name ). ' </h4><a class="plugin-detail thickbox open-plugin-details-modal" href="'.esc_url( $detail_link ).'">'.esc_html__( 'Details & Version', 'open-shop' ).'</a>
+                <h4>'.esc_html( $plugin_name ). ' </h4><a class="plugin-detail thickbox open-plugin-details-modal" href="'.esc_url( $detail_link ).'">'.esc_html__( 'Details & Version', 'novellite' ).'</a>
                 </div>';
                  $plugin_add .='<button data-activated="Plugin Activated" data-msg="Activating Plugin" data-init="'.esc_attr($plugin_init).'" data-slug="'.esc_attr( $slug ).'" class="button '.esc_attr( $button_class ).'">'.esc_html($button_txt).'</button>';
 
