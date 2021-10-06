@@ -7,15 +7,7 @@
                      <th class="status" align="center">Novellite</th>
                      <th class="status" align="center">NovelPro</th>
                   </tr>
-                  <tr class="feature-row">
-                     <td class="title">
-                        <div class="title-wrap">
-                           <h4>Section Ordering</h4>
-                        </div>
-                     </td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
-                  </tr>
+
                   <tr class="feature-row">
                      <td class="title">
                         <div class="title-wrap">
@@ -25,19 +17,27 @@
                      <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
                      <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
                   </tr>
+
+                  
+                  
                   <tr class="feature-row">
                      <td class="title">
                         <div class="title-wrap">
-                           <h4>Typography</h4>
+                           <h4>All Section Styling</h4>
                         </div>
                      </td>
                      <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span><span class="info">Basic</span></td>
                      <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span><span class="info">Advance</span></td>
                   </tr>
+
+
+
+
+
                    <tr class="feature-row">
                      <td class="title">
                         <div class="title-wrap">
-                           <h4>Page Container Setting</h4>
+                           <h4>Woocommerce Compatibility </h4>
                         </div>
                      </td>
                      <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
@@ -46,7 +46,7 @@
                   <tr class="feature-row">
                      <td class="title">
                         <div class="title-wrap">
-                           <h4>Product & Hero Slider</h4>
+                           <h4>Unlimited Color Option </h4>
                         </div>
                      </td>
                      <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
@@ -55,7 +55,7 @@
                   <tr class="feature-row">
                      <td class="title">
                         <div class="title-wrap">
-                           <h4>Woocommerce Category Slider</h4>
+                           <h4>Hero Background Slider </h4>
                         </div>
                      </td>
                      <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
@@ -64,19 +64,19 @@
                   <tr class="feature-row">
                      <td class="title">
                         <div class="title-wrap">
-                           <h4>Unlimited Color Option</h4>
+                           <h4>Testimonials </h4>
                         </div>
                      </td>
-                     <td class="status error"><span class="dashicon dashicons dashicons-no-alt" size="30"></span></td>
+                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
                      <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
                   </tr>
                   <tr class="feature-row">
                      <td class="title">
                         <div class="title-wrap">
-                           <h4>Hero Background Slider</h4>
+                           <h4>Parallax Effect</h4>
                         </div>
                      </td>
-                     <td class="status error"><span class="dashicon dashicons dashicons-no-alt" size="30"></span></td>
+                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
                      <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
                   </tr>
                   <tr class="feature-row">
@@ -85,16 +85,50 @@
                            <h4>Woocommerce Product Section</h4>
                         </div>
                      </td>
-                     <td class="status error"><span class="dashicon dashicons dashicons-no-alt" size="30"></span></td>
+                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
                      <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
                   </tr>
                   <tr class="feature-row">
                      <td class="title">
                         <div class="title-wrap">
-                           <h4>Three Column Ad Section</h4>
+                           <h4>Fully Responsive </h4>
                         </div>
                      </td>
                      <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
+                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
+                  </tr>
+
+
+                  <tr class="feature-row">
+                     <td class="title">
+                        <div class="title-wrap">
+                           <h4>Widgetize Sidebar & Footer Area </h4>
+                        </div>
+                     </td>
+                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
+                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
+                  </tr>
+
+
+                  <tr class="feature-row">
+                     <td class="title">
+                        <div class="title-wrap">
+                           <h4>Background Color/Image </h4>
+                        </div>
+                     </td>
+                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
+                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
+                  </tr>
+
+
+
+                  <tr class="feature-row">
+                     <td class="title">
+                        <div class="title-wrap">
+                           <h4>Section Ordering</h4>
+                        </div>
+                     </td>
+                     <td class="status error"><span class="dashicon dashicons dashicons-no-alt" size="30"></span></td>
                      <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
                   </tr>
                   
@@ -102,7 +136,7 @@
                   <tr class="feature-row">
                      <td class="title">
                         <div class="title-wrap">
-                           <h4>News Letter </h4>
+                           <h4>Unlimited Custom Section</h4>
                         </div>
                      </td>
                      <td class="status error"><span class="dashicon dashicons dashicons-no-alt" size="30"></span></td>
@@ -113,7 +147,7 @@
                   <tr class="feature-row">
                      <td class="title">
                         <div class="title-wrap">
-                           <h4>About Us Section </h4>
+                           <h4>RTL Support</h4>
                         </div>
                      </td>
                      <td class="status error"><span class="dashicon dashicons dashicons-no-alt" size="30"></span></td>
@@ -123,7 +157,7 @@
                   <tr class="feature-row">
                      <td class="title">
                         <div class="title-wrap">
-                           <h4>Mega Menu Section </h4>
+                           <h4>Hero Background Video</h4>
                         </div>
                      </td>
                      <td class="status error"><span class="dashicon dashicons dashicons-no-alt" size="30"></span></td>
@@ -133,7 +167,7 @@
                   <tr class="feature-row">
                      <td class="title">
                         <div class="title-wrap">
-                           <h4>Woocommerce Widget Section</h4>
+                           <h4>Hero Section Scrolling</h4>
                         </div>
                      </td>
                      <td class="status error"><span class="dashicon dashicons dashicons-no-alt" size="30"></span></td>
@@ -147,93 +181,14 @@
                            <h4>Header Visibility</h4>
                         </div>
                      </td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
-                  </tr>
-
-                  <tr class="feature-row">
-                     <td class="title">
-                        <div class="title-wrap">
-                           <h4>Testimonial</h4>
-                        </div>
-                     </td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
-                  </tr>
-
-                  <tr class="feature-row">
-                     <td class="title">
-                        <div class="title-wrap">
-                           <h4>Parallax Effect</h4>
-                        </div>
-                     </td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
-                  </tr>
-
-                  <tr class="feature-row">
-                     <td class="title">
-                        <div class="title-wrap">
-                           <h4>Fully Responsive</h4>
-                        </div>
-                     </td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
-                  </tr>
-
-                  <tr class="feature-row">
-                     <td class="title">
-                        <div class="title-wrap">
-                           <h4>Brand Section</h4>
-                        </div>
-                     </td>
                      <td class="status error"><span class="dashicon dashicons dashicons-no-alt" size="30"></span></td>
                      <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
                   </tr>
 
-                  <tr class="feature-row">
-                     <td class="title">
-                        <div class="title-wrap">
-                           <h4>Fact Counter </h4>
-                        </div>
-                     </td>
-                     <td class="status error"><span class="dashicon dashicons dashicons-no-alt" size="30"></span></td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
-                  </tr>
+                  
 
 
-                  <tr class="feature-row">
-                     <td class="title">
-                        <div class="title-wrap">
-                           <h4>Instagram</h4>
-                        </div>
-                     </td>
-                     <td class="status error"><span class="dashicon dashicons dashicons-no-alt" size="30"></span></td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
-                  </tr>
-
-
-                  <tr class="feature-row">
-                     <td class="title">
-                        <div class="title-wrap">
-                           <h4>Social Icons</h4>
-                        </div>
-                     </td>
-                     <td class="status error"><span class="dashicon dashicons dashicons-no-alt" size="30"></span></td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
-                  </tr>
-
-
-                  <tr class="feature-row">
-                     <td class="title">
-                        <div class="title-wrap">
-                           <h4>Support</h4>
-                        </div>
-                     </td>
-                     <td class="status error"><span class="dashicon dashicons dashicons-no-alt" size="30"></span></td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
-                  </tr>
-
+                  
                     <tr class="feature-row th-buy-pro">
                      <td class="title">
                         <div class="title-wrap">
