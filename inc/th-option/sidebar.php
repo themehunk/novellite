@@ -12,7 +12,7 @@
             <div class="section">
                 <h3><?php _e('Leave us a review','novellite'); ?></h3>
                 <p><?php _e('We would love to hear your feedback.','novellite'); ?> </p>
-                 <a href="https://www.trustpilot.com/review/themehunk.com" target="_blank" class="sidebar-link"><?php _e('Submit review','novellite'); ?></a>
+                 <a href="https://wordpress.org/support/theme/novellite/reviews/" target="_blank" class="sidebar-link"><?php _e('Submit review','novellite'); ?></a>
 
             </div>
             <hr>

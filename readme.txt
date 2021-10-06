@@ -31,6 +31,7 @@ Yes, all our theme works on multisite.
 = Theme Name NovelLite=
 
 = 1.6.9 =
+* option panel style and new featured added.
 * Th option page escaping issue fixed.
 
 = 1.6.8 =
