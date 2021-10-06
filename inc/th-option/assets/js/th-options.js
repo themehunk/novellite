@@ -115,7 +115,7 @@ function openTab(evt, tabName) {
                 .html($message.data('msg'));
 
             $.ajax({
-                url  : novellite.ajaxUrl,
+                url  : ajaxurl,
                 type : 'POST',
 
                 data : {

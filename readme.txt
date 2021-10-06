@@ -33,6 +33,7 @@ Yes, all our theme works on multisite.
 = 1.6.9 =
 * option panel style and new featured added.
 * Th option page escaping issue fixed.
+* All plugin select issue fixed.
 
 = 1.6.8 =
 * Escaping issue fixed.

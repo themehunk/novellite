@@ -542,23 +542,6 @@ if ( ! function_exists( 'novellite_hex_to_rgba' ) ) {
 
     }
 }
-add_action( 'admin_enqueue_scripts', 'novellite_admin_script' );
-function novellite_admin_script(){
-wp_enqueue_script( 'novellite-admin-settings', get_template_directory_uri()  . '/js/oneclick-demo-import.js', array( 'jquery', 'wp-util', 'updates' ), '');
-
-      $localize = array(
-        'ajaxUrl'             => admin_url( 'admin-ajax.php' ),
-        'btnActivating'       => __( 'Activating Importer Plugin ', 'novellite' ) . '&hellip;',
-        'novelliteSitesLink'      => admin_url( 'themes.php?page=pt-one-click-demo-import' ),
-        'novelliteSitesLinkTitle' => __( 'See Library', 'novellite' ),
-      );
-
-      
-      wp_localize_script( 'novellite-admin-settings', 'novellite', apply_filters( 'novellite_theme_js_localize', $localize ) );
-}
-
-
-
 
 if ( ! function_exists( 'wp_body_open' ) ) {
 
