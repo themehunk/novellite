@@ -149,13 +149,13 @@ function _check_homepage_setup(){
 
              if ( is_plugin_active( $plugin_init ) ) {
                    $button_class = 'button disabled '.$slug;
-                   $button_txt = esc_html__( 'Plugin Activated', 'open-shop' );
+                   $button_txt = esc_html__( 'Plugin Activated', 'novellite' );
                    $detail_link = $install_url = '';
 
         }
 
             if ( ! is_plugin_active( $plugin_init ) ){
-                    $button_txt = esc_html__( 'Install Now', 'open-shop' );
+                    $button_txt = esc_html__( 'Install Now', 'novellite' );
                     if ( ! $status ) {
                         $install_url = wp_nonce_url(
                             add_query_arg(
@@ -177,7 +177,7 @@ function _check_homepage_setup(){
                             '_wpnonce' => wp_create_nonce('activate-plugin_' . $plugin_init ),
                         ), network_admin_url('plugins.php'));
                         $button_class = 'activate-now button-primary '.$slug;
-                        $button_txt = esc_html__( 'Activate Now', 'open-shop' );
+                        $button_txt = esc_html__( 'Activate Now', 'novellite' );
                     }
                         
 

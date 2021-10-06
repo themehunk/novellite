@@ -3,15 +3,15 @@
             <table class="table">
                <tbody class="table-body">
                   <tr class="table-head">
-                     <th class="title" align="left">Features</th>
-                     <th class="status" align="center">Novellite</th>
-                     <th class="status" align="center">NovelPro</th>
+                     <th class="title" align="left"><?php _e('Features','novellite'); ?></th>
+                     <th class="status" align="center"><?php _e('Novellite','novellite'); ?> </th>
+                     <th class="status" align="center"><?php _e('NovelPro','novellite'); ?> </th>
                   </tr>
 
                   <tr class="feature-row">
                      <td class="title">
                         <div class="title-wrap">
-                           <h4>Section Hide Option</h4>
+                           <h4><?php _e('Section Hide Option','novellite'); ?> </h4>
                         </div>
                      </td>
                      <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
@@ -23,21 +23,17 @@
                   <tr class="feature-row">
                      <td class="title">
                         <div class="title-wrap">
-                           <h4>All Section Styling</h4>
+                           <h4><?php _e('All Section Styling','novellite'); ?> </h4>
                         </div>
                      </td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span><span class="info">Basic</span></td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span><span class="info">Advance</span></td>
+                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span><span class="info"><?php _e('Basic','novellite'); ?> </span></td>
+                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span><span class="info"><?php _e('Advance','novellite'); ?> </span></td>
                   </tr>
-
-
-
-
 
                    <tr class="feature-row">
                      <td class="title">
                         <div class="title-wrap">
-                           <h4>Woocommerce Compatibility </h4>
+                           <h4><?php _e('Woocommerce Compatibility','novellite'); ?> </h4>
                         </div>
                      </td>
                      <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
@@ -46,7 +42,7 @@
                   <tr class="feature-row">
                      <td class="title">
                         <div class="title-wrap">
-                           <h4>Unlimited Color Option </h4>
+                           <h4> <?php _e('Unlimited Color Option','novellite'); ?> </h4>
                         </div>
                      </td>
                      <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
@@ -55,7 +51,7 @@
                   <tr class="feature-row">
                      <td class="title">
                         <div class="title-wrap">
-                           <h4>Hero Background Slider </h4>
+                           <h4> <?php _e('Hero Background Slider','novellite'); ?> </h4>
                         </div>
                      </td>
                      <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
@@ -64,7 +60,7 @@
                   <tr class="feature-row">
                      <td class="title">
                         <div class="title-wrap">
-                           <h4>Testimonials </h4>
+                           <h4><?php _e('Testimonials','novellite'); ?> </h4>
                         </div>
                      </td>
                      <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
@@ -73,7 +69,7 @@
                   <tr class="feature-row">
                      <td class="title">
                         <div class="title-wrap">
-                           <h4>Parallax Effect</h4>
+                           <h4> <?php _e('Parallax Effect','novellite'); ?> </h4>
                         </div>
                      </td>
                      <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
@@ -82,7 +78,7 @@
                   <tr class="feature-row">
                      <td class="title">
                         <div class="title-wrap">
-                           <h4>Woocommerce Product Section</h4>
+                           <h4><?php _e('Woocommerce Product Section','novellite'); ?> </h4>
                         </div>
                      </td>
                      <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
@@ -91,18 +87,7 @@
                   <tr class="feature-row">
                      <td class="title">
                         <div class="title-wrap">
-                           <h4>Fully Responsive </h4>
-                        </div>
-                     </td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
-                  </tr>
-
-
-                  <tr class="feature-row">
-                     <td class="title">
-                        <div class="title-wrap">
-                           <h4>Widgetize Sidebar & Footer Area </h4>
+                           <h4><?php _e('Fully Responsive','novellite'); ?> </h4>
                         </div>
                      </td>
                      <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
@@ -113,7 +98,18 @@
                   <tr class="feature-row">
                      <td class="title">
                         <div class="title-wrap">
-                           <h4>Background Color/Image </h4>
+                           <h4><?php _e('Widgetize Sidebar & Footer Area','novellite'); ?>  </h4>
+                        </div>
+                     </td>
+                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
+                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
+                  </tr>
+
+
+                  <tr class="feature-row">
+                     <td class="title">
+                        <div class="title-wrap">
+                           <h4> <?php _e('Background Color/Image ','novellite'); ?> </h4>
                         </div>
                      </td>
                      <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
@@ -125,7 +121,7 @@
                   <tr class="feature-row">
                      <td class="title">
                         <div class="title-wrap">
-                           <h4>Section Ordering</h4>
+                           <h4> <?php _e('Section Ordering','novellite'); ?> </h4>
                         </div>
                      </td>
                      <td class="status error"><span class="dashicon dashicons dashicons-no-alt" size="30"></span></td>
@@ -136,7 +132,7 @@
                   <tr class="feature-row">
                      <td class="title">
                         <div class="title-wrap">
-                           <h4>Unlimited Custom Section</h4>
+                           <h4><?php _e('Unlimited Custom Section','novellite'); ?> </h4>
                         </div>
                      </td>
                      <td class="status error"><span class="dashicon dashicons dashicons-no-alt" size="30"></span></td>
@@ -147,7 +143,7 @@
                   <tr class="feature-row">
                      <td class="title">
                         <div class="title-wrap">
-                           <h4>RTL Support</h4>
+                           <h4> <?php _e('RTL Support','novellite'); ?> </h4>
                         </div>
                      </td>
                      <td class="status error"><span class="dashicon dashicons dashicons-no-alt" size="30"></span></td>
@@ -157,7 +153,7 @@
                   <tr class="feature-row">
                      <td class="title">
                         <div class="title-wrap">
-                           <h4>Hero Background Video</h4>
+                           <h4> <?php _e('Hero Background Video','novellite'); ?> </h4>
                         </div>
                      </td>
                      <td class="status error"><span class="dashicon dashicons dashicons-no-alt" size="30"></span></td>
@@ -167,7 +163,7 @@
                   <tr class="feature-row">
                      <td class="title">
                         <div class="title-wrap">
-                           <h4>Hero Section Scrolling</h4>
+                           <h4> <?php _e('Hero Section Scrolling','novellite'); ?> </h4>
                         </div>
                      </td>
                      <td class="status error"><span class="dashicon dashicons dashicons-no-alt" size="30"></span></td>
@@ -178,7 +174,7 @@
                   <tr class="feature-row">
                      <td class="title">
                         <div class="title-wrap">
-                           <h4>Header Visibility</h4>
+                           <h4><?php _e('Header Visibility','novellite'); ?> </h4>
                         </div>
                      </td>
                      <td class="status error"><span class="dashicon dashicons dashicons-no-alt" size="30"></span></td>
@@ -192,11 +188,11 @@
                     <tr class="feature-row th-buy-pro">
                      <td class="title">
                         <div class="title-wrap">
-                           <h4>Get Pro Theme</h4>
+                           <h4><?php _e('Get Pro Theme','novellite'); ?> </h4>
                         </div>
                      </td>
-                     <td class="status upsell">Get access to all Pro features</td>
-                     <td class="status success"><a href="https://themehunk.com/product/novelpro-single-page-theme/" target="_blank" rel="external noreferrer noopener" class="components-button is-primary">Get NovelPro Now</a></td>
+                     <td class="status upsell"><?php _e('Get access to all Pro features','novellite'); ?> </td>
+                     <td class="status success"><a href="https://themehunk.com/product/novelpro-single-page-theme/" target="_blank" rel="external noreferrer noopener" class="components-button is-primary"><?php _e('Get NovelPro Now','novellite'); ?></a></td>
                   </tr>
 
 

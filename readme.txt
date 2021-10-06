@@ -2,9 +2,9 @@
 Contributors: ThemeHunk
 Tags: two-columns, right-sidebar, custom-menu, custom-background, threaded-comments, editor-style, translation-ready, full-width-template, flexible-header, sticky-post, theme-options, one-column, e-commerce, entertainment, photography
 Requires at least:4.5
-Tested up to: 5.5.1
+Tested up to: 5.8.1
 Requires PHP: 5.6
-Stable tag: 1.6.8
+Stable tag: 1.6.9
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -29,6 +29,10 @@ Yes, all our theme works on multisite.
 
 == Changelog ==
 = Theme Name NovelLite=
+
+= 1.6.9 =
+* Th option page escaping issue fixed.
+
 = 1.6.8 =
 * Escaping issue fixed.
 

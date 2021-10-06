@@ -11,10 +11,10 @@
 <div class="tab-left" >
 
         <div class="tab">
-            <button class="tablinks active" onclick="openTab(event, 'Welcome')">Welcome</button>
-            <button class="tablinks" onclick="openTab(event, 'Recommanded-Plugin')">Recommanded Plugin</button>
-            <button class="tablinks" onclick="openTab(event, 'Free-Vs-Pro')">Free Vs Pro</button>
-            <button class="tablinks" onclick="openTab(event, 'Help')">Help</button>
+            <button class="tablinks active" onclick="openTab(event, 'Welcome')"><?php _e('Welcome','novellite');?></button>
+            <button class="tablinks" onclick="openTab(event, 'Recommanded-Plugin')"><?php _e('Recommanded Plugin','novellite');?> </button>
+            <button class="tablinks" onclick="openTab(event, 'Free-Vs-Pro')"><?php _e('Free Vs Pro','novellite');?></button>
+            <button class="tablinks" onclick="openTab(event, 'Help')"><?php _e('Help','novellite');?></button>
         </div>
 
         <!-- Tab content -->
