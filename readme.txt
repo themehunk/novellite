@@ -4,7 +4,7 @@ Tags: two-columns, right-sidebar, custom-menu, custom-background, threaded-comme
 Requires at least:4.5
 Tested up to: 5.8.1
 Requires PHP: 5.6
-Stable tag: 1.6.9
+Stable tag: 1.7.0
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -29,6 +29,9 @@ Yes, all our theme works on multisite.
 
 == Changelog ==
 = Theme Name NovelLite=
+
+= 1.7.0 =
+* Th option panel updated.
 
 = 1.6.9 =
 * option panel style and new featured added.
@@ -293,8 +296,8 @@ Yes, all our theme works on multisite.
 
 
 == Upgrade Notice ==
-= 1.6.7 =
-* Bug Fixed
+= 1.7.0 =
+* Th option panel updated.
 
 
 == Resources ==

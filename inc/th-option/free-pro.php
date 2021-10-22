@@ -8,6 +8,20 @@
                      <th class="status" align="center"><?php _e('NovelPro','novellite'); ?> </th>
                   </tr>
 
+
+                  <tr class="feature-row">
+                     <td class="title">
+                        <div class="title-wrap">
+                           <h4 style="color: #FF6D00;"><?php _e('Pre Made Template','novellite'); ?> </h4>
+                        </div>
+                     </td>
+                     <td class="status success"><span class="dashicon dashicons" size="30"></span>
+                     <span class="info"><?php _e('1','novellite'); ?> </span></td>
+                     <td class="status success"><span class="dashicon dashicons" size="30"></span>
+                     <span class="info"><a href="https://themehunk.com/product/novelpro-single-page-theme/#tabfix" target="_blank"><?php _e('7+','novellite'); ?> </a></span></td>
+                  </tr>
+
+
                   <tr class="feature-row">
                      <td class="title">
                         <div class="title-wrap">
