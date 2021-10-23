@@ -6,8 +6,6 @@
  * @return mixed|string
  */ 
 
-	include( trailingslashit( get_template_directory() ) . '/inc/plugin-install.php' );
-
 	include( trailingslashit( get_template_directory() ) . '/inc/define-template.php' );
 	include( trailingslashit( get_template_directory() ) . '/inc/custom-function.php' );
 	include( trailingslashit( get_template_directory() ) . '/inc/custom-color.php' );

@@ -120,7 +120,6 @@ add_theme_support( 'custom-header', $defaults );
             ),
         ) );
 
-    
 
     // Recommend plugins
         add_theme_support( 'novellite-recommend-plugins', array(

@@ -1,21 +1,41 @@
-<div class="wrap about-wrap theme_info_wrapper">
-    <div class="header">
-        <h1><?php  echo $theme_header['welcome']; ?></h1>
-        <div class="about-text"><?php echo $theme_header['welcome_desc']; ?></div>
-        <a target="_blank" href="<?php echo $theme_header['theme_brand_url']; ?>/?wp=novellite" class="themehunkhemes-badge wp-badge"><span><?php echo $theme_header['theme_brand']; ?></span></a>
+<div class="wrap-th about-wrap-th theme_info_wrapper">
+    
+	 <div class="header">
+
+		 <!-- themehunkhemes-badge wp-badge-->
+<div class="th-option-area">
+        <div class="th-option-top-hdr">
+            <div class="col-1">
+                <div class="logo-img">
+                <a target="_blank" href="<?php echo esc_url($theme_header['theme_brand_url']); ?>/?wp=novellite" class=""> <span class="logo-image"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/inc/th-option/assets/images/icon.png"/><?php echo $theme_header['theme_brand']; ?></span></a>
+            </div>
+            </div>
+            <div class="col-2">
+                <div class="th-option-heading">
+                    <h2><?php  echo $theme_header['welcome']; ?></h2>
+                    <span><?php echo $theme_header['welcome_desc']; ?></span>
+                </div>
+                <span class="version"><?php echo $theme_header['v']; ?></span>
+                <span><?php _e("FREE THEME",'novellite'); ?></span>
+            </div>
+        </div>
+        <div class="th-option-bottom-hdr">
+            <a class="tablinks active" onclick="openTab(event, 'Welcome')"><?php _e('Welcome','novellite');?></a>
+            <a class="tablinks" onclick="openTab(event, 'Recommanded-Plugin')"><?php _e('Recommanded Plugin','novellite');?> </a>
+            <a class="tablinks" onclick="openTab(event, 'Free-Vs-Pro')"><?php _e('Free Vs Pro','novellite');?></a>
+            <a class="tablinks" onclick="openTab(event, 'Help')"><?php _e('Help','novellite');?></a>
+
+        </div>
     </div>
+    </div>
+	
+	
 </div>
 <div class="content-wrap">
     <div class="main">
 
 <div class="tab-left" >
 
-        <div class="tab">
-            <button class="tablinks active" onclick="openTab(event, 'Welcome')"><?php _e('Welcome','novellite');?></button>
-            <button class="tablinks" onclick="openTab(event, 'Recommanded-Plugin')"><?php _e('Recommanded Plugin','novellite');?> </button>
-            <button class="tablinks" onclick="openTab(event, 'Free-Vs-Pro')"><?php _e('Free Vs Pro','novellite');?></button>
-            <button class="tablinks" onclick="openTab(event, 'Help')"><?php _e('Help','novellite');?></button>
-        </div>
 
         <!-- Tab content -->
         <div id="Welcome" class="tabcontent active">
@@ -24,11 +44,41 @@
 
             </div> <!-- close twocolumn -->
         </div>
+		
+		
+		          <div id="Import-Demo-Content" class="tabcontent">
+
+            <div class="rp-two-column">
+
+                <div class="rcp theme_link th-row">
+                
+                <div class="title-plugin">
+                <h3><?php _e('Click Here To Import Demo Content','novellite'); ?></h3>
+				 
+				 <p> <?php _e("You need to Install required plugins like- Hunk Companion, WooCommerce and One click demo import plugin. After installing required plugins import button will activate.", 'novellite'); ?></p>
+              <a class="button disabled importdemo"><?php _e( 'Import Demo', 'novellite' ); ?></a>
+				 
+				
+             </div>
+
+             </div>
+             
+                  
+                <?php $this->plugin_install('import-demo-content'); ?>
+            
+            </div>
+
+        
+        </div>
+		
+		
+		
+		
 
 
         <div id="Recommanded-Plugin" class="tabcontent">
             <div class="rp-two-column">
-            <?php echo $this->plugin_setup_api(); ?>
+            <?php $this->plugin_install(); ?>
             </div>
         </div>
 
@@ -59,4 +109,5 @@
 </div>
 
 
+</div>
 </div>
