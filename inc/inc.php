@@ -14,3 +14,4 @@
 	include( trailingslashit( get_template_directory() ) . '/inc/customizer.php' );
 	include( trailingslashit( get_template_directory() ) . '/inc/pro-button/class-customize.php' );
 	include( trailingslashit( get_template_directory() ) . '/inc/th-option/th-option.php' );
+	include( trailingslashit( get_template_directory() ) . '/inc/th-option/child-notify.php' );
