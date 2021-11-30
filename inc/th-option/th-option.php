@@ -10,8 +10,8 @@ add_action('admin_menu', array($this,'menu_tab'));
     add_action( 'wp_ajax_default_home',array($this, 'default_home') );
 }
 function menu_tab() {
-    $menu_title = esc_html__('Novellite Options', 'novellite');
-    add_theme_page( esc_html__( 'Novellite', 'novellite' ), $menu_title, 'edit_theme_options', 'thunk_started',array($this,'tab_page'));
+    $menu_title = esc_html__('NovelLite Options', 'novellite');
+    add_theme_page( esc_html__( 'NovelLite', 'novellite' ), $menu_title, 'edit_theme_options', 'thunk_started',array($this,'tab_page'));
 
 }
 
@@ -21,7 +21,8 @@ function menu_tab() {
 */
 function admin_scripts( $hook ) {
 if ($hook === 'appearance_page_thunk_started'  ) {
-wp_enqueue_style( 'thunk-started-css', get_template_directory_uri() . '/inc/th-option/assets/css/started.css' );wp_enqueue_script('novelLite-admin-load', get_template_directory_uri() . '/inc/th-option/assets/js/th-options.js',array( 'jquery', 'updates' ),'1', true);
+wp_enqueue_style( 'thunk-started-css', get_template_directory_uri() . '/inc/th-option/assets/css/started.css' );
+wp_enqueue_script('novellite-admin-load', get_template_directory_uri() . '/inc/th-option/assets/js/th-options.js',array( 'jquery', 'updates' ),'1', true);
 
 $data = apply_filters(
                     'th_option_localize_vars',
@@ -30,7 +31,7 @@ $data = apply_filters(
 
                         )
                 );
-    wp_localize_script( 'novellite-admin-load', 'THAdmin', $data);
+    wp_localize_script( 'novellite-admin-load', 'THAdmin', $data); 
 
 
 }
@@ -40,9 +41,9 @@ function tab_constant(){
     $tab_array = array();
     $tab_array['header'] = array('theme_brand' => __('ThemeHunk','novellite'),
     'theme_brand_url' => esc_url($theme_data->get( 'AuthorURI' )),
-    'welcome'=>sprintf(esc_html__('Welcome To %1s One Page Theme', 'novellite'), esc_html__($theme_data->get( 'Name' )), $theme_data->get( 'Version' ) ),
-    'welcome_desc' => esc_html__($theme_data->get( 'Name' ).' One Page Responsive Theme for WordPress', 'novellite' ),
-	'v'=> 'Version '.$theme_data->get( 'Version' )
+    'welcome'=>sprintf(esc_html__('Welcome To %1s Theme', 'novellite'), esc_html__($theme_data->get( 'Name' )), $theme_data->get( 'Version' ) ),
+    'welcome_desc' => esc_html__($theme_data->get( 'Name' ).' One Page Responsive Theme for WordPress is simple, easy and beautiful theme.', 'novellite' ),
+    'v'=> 'Version '.$theme_data->get( 'Version' )
     );
     return $tab_array;
 }
@@ -60,7 +61,7 @@ function tab_page() {
 function default_home() {
 $pages = get_pages(array(
     'meta_key' => '_wp_page_template',
-    'meta_value' => 'template-frontpage.php'
+    'meta_value' => 'frontpage.php'
 ));
   $post_id = isset($pages[0]->ID)?$pages[0]->ID:false;
 if(empty($pages)){
@@ -71,7 +72,7 @@ if(empty($pages)){
        'post_status' => 'publish',
        'comment_status' => 'closed',   // if you prefer
        'ping_status' => 'closed',      // if you prefer
-       'page_template' =>'template-frontpage.php', //Sets the template for the page.
+       'page_template' =>'frontpage.php', //Sets the template for the page.
     ));
   }
       if($post_id){
@@ -88,7 +89,7 @@ function _check_homepage_setup(){
 
     $pages = get_pages(array(
     'meta_key' => '_wp_page_template',
-    'meta_value' => 'template-frontpage.php'
+    'meta_value' => 'frontpage.php'
 ));
    $post_id = isset($pages[0]->ID)?$pages[0]->ID:false;
 
@@ -147,13 +148,15 @@ function plugin_install_button($plugin){
 
             echo $button;
 }
-		
-		
+
+
+
 
 /**
  * Include Welcome page content
  */
  public  function plugin_install($rplugins = 'recommend-plugins'){
+
     $recommend_plugins = get_theme_support( $rplugins );
 
        if ( is_array( $recommend_plugins ) && isset( $recommend_plugins[0] ) ){
@@ -220,12 +223,7 @@ function plugin_install_button($plugin){
         }
     } // plugin check
 }
-		
 
-		
-
-
-
- 
+	
 } // class end
 $boj = new novellite_theme_option(); ?>

@@ -25,7 +25,7 @@ function openTab(evt, tabName) {
 
     THoptionAdmin = {
         init: function(){
-            this.rPlugins = ['hunk-companion', 'one-click-demo-import', 'woocommerce'];
+            this.rPlugins = ['themehunk-customizer', 'one-click-demo-import', 'woocommerce'];
 
             this._bind();
             this._importActiveBtn();
