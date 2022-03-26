@@ -1,8 +1,8 @@
-=== Theme: NovelLite ===
+=== Theme: NovelLite Onepage Wordpress Theme===
 Contributors: ThemeHunk
 Tags: two-columns, right-sidebar, custom-menu, custom-background, threaded-comments, editor-style, translation-ready, full-width-template, flexible-header, sticky-post, theme-options, one-column, e-commerce, entertainment, photography
 Requires at least:4.5
-Tested up to: 5.8.2
+Tested up to: 5.9.2
 Requires PHP: 5.6
 Stable tag: 1.7.1
 License: GPLv3 or later
