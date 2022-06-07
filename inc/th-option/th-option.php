@@ -141,9 +141,9 @@ function plugin_install_button($plugin){
             $button .= '<div class="th-column">';
 
             $button .= '<div class="title-plugin">
-            <h4>'.esc_html( $plugin['plugin_name'] ). ' </h4><a class="plugin-detail thickbox open-plugin-details-modal" href="'.esc_url( $plugin['detail_link'] ).'">'.esc_html__( 'Details & Version', 'novellite' ).'</a>
+            <h4>'.esc_html( $plugin['plugin_name'] ). ' </h4><a target="_blank" class="plugin-detail thickbox1 open-plugin-details-modal1" href="'.esc_url( $plugin['detail_link'] ).'">'.esc_html__( 'View Details', 'novellite' ).'</a>
             </div>';
-             $button .='<button data-activated="Activated" data-msg="Activating" data-init="'.esc_attr($plugin['plugin_init']).'" data-slug="'.esc_attr( $plugin['slug'] ).'" class="button '.esc_attr( $plugin['button_class'] ).'">'.esc_html($plugin['button_txt']).'</button>';
+             $button .='<button data-activated="Activated" data-msg="Activating" data-init="'.esc_attr($plugin['plugin_init']).'" data-slug="'.esc_attr( $plugin['slug'] ).'" class="actbtn button '.esc_attr( $plugin['button_class'] ).'">'.esc_html($plugin['button_txt']).'</button>';
             $button .= '</div></div>';
 
             echo $button;
@@ -215,7 +215,7 @@ function plugin_install_button($plugin){
                     $pluginArr['slug']= $slug;
                     $pluginArr['thumb']= "https://ps.w.org/". $slug."/assets/".$plugin['img'];
                     $pluginArr['plugin_init']= $plugin_init;
-                    $pluginArr['detail_link']= $detail_link;
+                    $pluginArr['detail_link']= 'https://themehunk.com/free-plugins/';
                     $pluginArr['button_txt']= $button_txt;
                     $pluginArr['button_class']= $button_class;
 

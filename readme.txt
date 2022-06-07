@@ -1,10 +1,10 @@
 === Theme: NovelLite Onepage Wordpress Theme===
 Contributors: ThemeHunk
 Tags: two-columns, right-sidebar, custom-menu, custom-background, threaded-comments, editor-style, translation-ready, full-width-template, flexible-header, sticky-post, theme-options, one-column, e-commerce, entertainment, photography
-Requires at least:4.5
-Tested up to: 5.9.2
+Requires at least: 5.0
+Tested up to: 6.0
 Requires PHP: 5.6
-Stable tag: 1.7.1
+Stable tag: 1.7.2
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -29,6 +29,10 @@ Yes, all our theme works on multisite.
 
 == Changelog ==
 = Theme Name NovelLite=
+
+= 1.7.2 =
+* Style issue fixd.
+* Unlimited blocks For Gutenberg plugin added.  
 
 = 1.7.1 =
 * Th option panel updated.

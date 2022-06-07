@@ -11,7 +11,7 @@ $palette = array('rgb(0, 0, 0, 0)',);
 
 // Home Page Settings
  $wp_customize->add_section('section_default_home', array(
-        'title'    => __('One click Homepage Setup', 'novellite'),
+        'title'    => __('One click Starter Sites Setup', 'novellite'),
         'priority' => 2,
     ));
    $wp_customize->add_setting('default_home', array(
@@ -21,7 +21,7 @@ $palette = array('rgb(0, 0, 0, 0)',);
             array(
         'section'  => 'section_default_home',
         'type'        => 'custom_message',
-        'description' => wp_kses_post( 'Click button to set theme default home page. You can modify this page from customize panel. Check this doc : <a target="_blank" href="https://themehunk.com/docs/novellite-theme/"> View Documentation</a>. <div class="default-home-wrap"><span class="spinner"></span> <a class="default-home" href="#">Set Home Page</a></div>','novellite' )
+        'description' => wp_kses_post( 'Click button to set theme default home page. You can modify this page from customize panel. Check this doc : <a target="_blank" href="https://themehunk.com/docs/novellite-theme/"> View Documentation</a>. <div class="default-home-wrap"><span class="spinner"></span> <a class="default-home" href="#">Starter Sites</a></div>','novellite' )
     )));
      //  =============================
      //  = Genral Settings     =

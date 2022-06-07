@@ -6,7 +6,7 @@
             <p>
             <b><?php _e('Pre-made premium templates','novellite'); ?> </b><br>
             <?php _e('NovelPro is one of the most popular eCommerce theme on WordPress.','novellite'); ?> </p>
-                <center><a class="button ztabtn" target="_blank" href="https://themehunk.com/product/novellite-one-page-wordpress-theme"><?php _e('Upgrade','novellite'); ?> </a></center>
+                <center><a class="button ztabtn" target="_blank" href="https://themehunk.com/product/novelpro-single-page-theme/"><?php _e('Upgrade','novellite'); ?> </a></center>
             </div>
             <hr>
             <div class="section">

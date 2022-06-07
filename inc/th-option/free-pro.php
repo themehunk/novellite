@@ -366,7 +366,7 @@
                         </div>
                      </td>
                      <td class="status upsell"><?php _e('Access to all Pro features','novellite'); ?> </td>
-                     <td class="status success"><a href="https://themehunk.com/product/novellite-one-page-wordpress-theme/" target="_blank" rel="external noreferrer noopener" class="components-button is-primary"><?php _e('Get NovelPro Now','novellite'); ?></a></td>
+                     <td class="status success"><a href="https://themehunk.com/product/novelpro-single-page-theme/" target="_blank" rel="external noreferrer noopener" class="components-button is-primary"><?php _e('Get NovelPro Now','novellite'); ?></a></td>
                   </tr>
 
 

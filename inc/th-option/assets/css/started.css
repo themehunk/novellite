@@ -110,7 +110,9 @@
     width: 100%;
     display: block;
 }
-
+.actbtn{
+    margin-top: 15px !important;
+}
 .th-option-bottom-hdr .tablinks {
     padding: 20px;
     color: #111;
@@ -121,6 +123,7 @@
 .appearance_page_thunk_started{
 background:#fff;
 }
+
 
 .appearance_page_thunk_started .theme_link a.ztabtn.button, .ztabtn{
     color: #FFFFFF !important;

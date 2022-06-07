@@ -89,18 +89,16 @@ add_theme_support( 'custom-header', $defaults );
 
 // Recommend plugins
         add_theme_support( 'recommend-plugins', array(
-
-
             'th-advance-product-search' => array(
             'name' => esc_html__( 'TH Advance Product Search', 'novellite' ),
             'img' => 'icon-128x128.gif',
             'active_filename' => 'th-advance-product-search/th-advance-product-search.php',
             ),
-            'th-variation-swatches' => array(
-                'name' => esc_html__( 'TH Variation Swatches', 'novellite' ),
-                 'img' => 'icon-128x128.gif',
-                'active_filename' => 'th-variation-swatches/th-variation-swatches.php',
-            ),
+            'unlimited-blocks' => array(
+                'name' => esc_html__( 'Unlimited blocks For Gutenberg', 'novellite' ),
+                'img' => 'icon-128x128.png',
+                'active_filename' => 'unlimited-blocks/unlimited-blocks.php',
+                ),
             'lead-form-builder' => array(
                 'name' => esc_html__( 'Lead Form Builder', 'novellite' ),
                  'img' => 'icon-128x128.png',
@@ -111,26 +109,21 @@ add_theme_support( 'custom-header', $defaults );
                  'img' => 'icon-128x128.png',
                 'active_filename' => 'wp-popup-builder/wp-popup-builder.php',
             ), 
+            'th-variation-swatches' => array(
+                'name' => esc_html__( 'TH Variation Swatches', 'novellite' ),
+                 'img' => 'icon-128x128.gif',
+                'active_filename' => 'th-variation-swatches/th-variation-swatches.php',
+            ),
             'woocommerce' => array(
                 'name' => esc_html__( 'Woocommerce', 'novellite' ),
                  'img' => 'icon-128x128.png',
                 'active_filename' => 'woocommerce/woocommerce.php',
             ),
-
-            'yith-woocommerce-wishlist' => array(
-                 'name' => esc_html__( 'YITH WooCommerce Wishlist', 'novellite' ),
-                  'img' => 'icon-128x128.jpg',
-                 'active_filename' => 'yith-woocommerce-wishlist/init.php',
-             ),
-
             'themehunk-megamenu-plus' => array(
                 'name' => esc_html__( 'ThemeHunk Megamenu – Menu builder', 'novellite' ),
                 'img' => 'icon-128x128.png',
                 'active_filename' => 'themehunk-megamenu-plus/themehunk-megamenu.php',
             ), 
-
-            
-
         ) );
 
         // Import Data Content plugins

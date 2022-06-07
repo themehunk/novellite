@@ -44,7 +44,7 @@
 <!--- tab second -->
 <div class="theme_link">
     <h3><?php _e('3. Customize Your Website','novellite'); ?><!-- <php echo $theme_config['plugin_title']; ?> --></h3>
-    <p><?php _e('NovelLite theme support live customizer for home page set up. Everything visible at home page can be changed through customize panel','novellite'); ?></p>
+    <p><?php echo __('NovelLite theme support live customizer for home page set up. Everything visible at home page can be changed through customize panel','novellite'); ?></p>
     <p>
     <a href="<?php echo admin_url('customize.php'); ?>" class="button button-primary"><?php _e("Start Customize","novellite"); ?></a>
     </p>
