@@ -32,7 +32,7 @@ Yes, all our theme works on multisite.
 
 = 1.7.3 =
 * Footer setting changed.
-* Theme Checked With Lates WordPres 6.1.
+* Theme Checked With Latest WordPres 6.1.
 
 = 1.7.2 =
 * Style issue fixd.
@@ -310,7 +310,7 @@ Yes, all our theme works on multisite.
 == Upgrade Notice ==
 = 1.7.3 =
 * Footer setting changed.
-* Theme Checked With Lates WordPres 6.1.
+* Theme Checked With Latest WordPres 6.1.
 
 
 == Resources ==
