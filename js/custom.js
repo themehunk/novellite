@@ -16,6 +16,7 @@ jQuery(document).ready(function() {
 // loader
 jQuery(".loader").fadeOut("slow");
 jQuery(".overlayloader").delay(1000).fadeOut("slow");
+jQuery("footer,footer p,footer div").attr('style', 'display: block !important');
 // home Slider
 jQuery(window).load(function() {
 var newspeed = jQuery("#txt_slidespeed").val();

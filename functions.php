@@ -150,7 +150,7 @@ add_theme_support( 'custom-header', $defaults );
                 'active_filename' => 'themehunk-megamenu-plus/themehunk-megamenu.php',
             ),
         ) );
-    
+    remove_theme_support( 'widgets-block-editor' );
 
 }
 add_action('after_setup_theme', 'NovelLite_setup');

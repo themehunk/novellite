@@ -2,9 +2,9 @@
 Contributors: ThemeHunk
 Tags: two-columns, right-sidebar, custom-menu, custom-background, threaded-comments, editor-style, translation-ready, full-width-template, flexible-header, sticky-post, theme-options, one-column, e-commerce, entertainment, photography
 Requires at least: 5.0
-Tested up to: 6.0
+Tested up to: 6.1
 Requires PHP: 5.6
-Stable tag: 1.7.2
+Stable tag: 1.7.3
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -29,6 +29,10 @@ Yes, all our theme works on multisite.
 
 == Changelog ==
 = Theme Name NovelLite=
+
+= 1.7.3 =
+* Footer setting changed.
+* Theme Checked With Latest WordPres 6.1.
 
 = 1.7.2 =
 * Style issue fixd.
@@ -304,8 +308,9 @@ Yes, all our theme works on multisite.
 
 
 == Upgrade Notice ==
-= 1.7.0 =
-* Th option panel updated.
+= 1.7.3 =
+* Footer setting changed.
+* Theme Checked With Latest WordPres 6.1.
 
 
 == Resources ==
