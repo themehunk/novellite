@@ -16,20 +16,20 @@ $teamprlx_top_bottom ='';
 }
 ?>    
 <!-- Team Section -->
-<section id="section4" class="bg-light-gray <?php echo $teamprlx_class;?>" data-center="<?php echo $teamprlx_data_center;?>"
-  data-top-bottom="<?php echo $teamprlx_top_bottom;?>">
+<section id="section4" class="bg-light-gray <?php echo esc_attr($teamprlx_class);?>" data-center="<?php echo esc_attr($teamprlx_data_center);?>"
+  data-top-bottom="<?php echo esc_attr($teamprlx_top_bottom);?>">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <?php if (get_theme_mod('team_head_','') != '') { ?>
                 <h2 class="section-heading"><?php echo esc_html(get_theme_mod('team_head_','')); ?></h2>
                 <?php } else { ?>
-                <h2 class="section-heading"><?php esc_html__('Our Amazing Team','novellite'); ?></h2>
+                <h2 class="section-heading"><?php esc_html_e('Our Amazing Team','novellite'); ?></h2>
                 <?php } ?>
                 <?php if (get_theme_mod('team_desc_','') != '') { ?>
                 <h3 class="section-subheading text-muted" ><?php echo esc_textarea(get_theme_mod('team_desc_','')); ?></h3>
                 <?php } else { ?>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h3 class="section-subheading text-muted"><?php esc_html_e('Lorem ipsum dolor sit amet consectetur.','novellite'); ?></h3>
                 <?php } ?>
                 
             </div>

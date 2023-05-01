@@ -1,5 +1,5 @@
 <?php $back_to_top = get_theme_mod('novellite_backtotop_disable','0');?>
-<input type="hidden" id="back-to-top" value="<?php echo $back_to_top?>"/> 
+<input type="hidden" id="back-to-top" value="<?php echo esc_attr($back_to_top);?>"/> 
 <div class="outer-footer">
 <div class="container">
 <div class="footer-widget-area">

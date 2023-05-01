@@ -4239,6 +4239,9 @@ color: #ffffff;
         width: 100%;
         height: auto;
 }
+section h2.section-heading{
+    font-size: 21px;
+}
 #section1 .col-md-4, .home_blog_content .post, .w3eden .col-md-4, .team-member{
 width:100%;
 max-width: 360px;
@@ -4346,6 +4349,9 @@ height: 225px;
     
     width: 180px;
     height: 180px;
+}
+section{
+    padding: 50px 0;
 }
 }
 @media only screen and (max-width: 1024px){
@@ -4474,7 +4480,9 @@ left:10%;
 .brand-carousel #carousel-full .carousel-nav .carousel-next{
 right:10%;
 }
-
+section{
+    padding: 80px 0;
+}
 
 }
 @media only screen and (max-width: 480px) {
@@ -4729,7 +4737,7 @@ display: inline-block;
 @media only screen and (max-width: 768px){
 /**lead form**/
 .home .contact_section .leadform-show-form.leadform-lite {
-    max-width: 80%!important;
+    max-width: 90%!important;
 }
 .home .contact_section .leadform-show-form.leadform-lite input,
 .home .select-type select{

@@ -16,20 +16,20 @@ $pricingprlx_data_center = '';
 $pricingprlx_top_bottom =''; 
 }
 ?>
-<section id="price-package" class="<?php echo $pricingprlx_class;?>" data-center="<?php echo $pricingprlx_data_center;?>"
-  data-top-bottom="<?php echo $pricingprlx_top_bottom;?>">
+<section id="price-package" class="<?php echo esc_attr($pricingprlx_class); ?>" data-center="<?php echo esc_attr($pricingprlx_data_center);?>"
+  data-top-bottom="<?php echo esc_attr($pricingprlx_top_bottom);?>">
   <div class="container">
     <div class="price-page">
       <div class="post-title">
         <?php if (get_theme_mod('pricing_head_') != '') { ?>
         <h1><?php echo esc_html(get_theme_mod('pricing_head_')); ?></h1>
         <?php }else { ?>
-        <h1><?php  _e('Price and Packages','novellite'); ?></h1>
+        <h1><?php  esc_html_e('Price and Packages','novellite'); ?></h1>
         <?php } ?>
         <?php if (get_theme_mod('pricing_desc_') != '') { ?>
         <p><?php echo esc_textarea(get_theme_mod('pricing_desc_')); ?></p>
         <?php } else { ?>
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <p><?php esc_html_e('Lorem ipsum dolor sit amet consectetur.','novellite'); ?></p>
                 <?php } ?>
       </div>
       <div class="price-block">

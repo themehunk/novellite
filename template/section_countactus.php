@@ -16,20 +16,20 @@ $cfprlx_data_center = '';
 $cfprlx_top_bottom =''; 
 }
 ?>    
-<section id="section5" class="contact_section <?php echo $cfprlx_class;?>" id="section2" data-center="<?php echo $cfprlx_data_center;?>"
-  data-top-bottom="<?php echo $cfprlx_top_bottom;?>">
+<section id="section5" class="contact_section <?php echo esc_attr($cfprlx_class);?>" id="section2" data-center="<?php echo esc_attr($cfprlx_data_center);?>"
+  data-top-bottom="<?php echo esc_attr($cfprlx_top_bottom);?>">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <?php if (get_theme_mod('cf_head_','') != '') { ?>
                     <h2 class="section-heading"><?php echo esc_html(get_theme_mod('cf_head_','')); ?></h2>
                     <?php } else { ?>
-                    <h2 class="section-heading"><?php _e('Contact Us','novellite'); ?></h2>
+                    <h2 class="section-heading"><?php esc_html_e('Contact Us','novellite'); ?></h2>
                     <?php } ?>
                     <?php if (get_theme_mod('cf_desc_','') != '') { ?>
                     <h3 class="section-subheading text-muted contact"><?php echo esc_textarea(get_theme_mod('cf_desc_','')); ?></h3>
                     <?php } else { ?>
-                <h3 class="section-subheading text-muted contact">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h3 class="section-subheading text-muted contact"><?php esc_html_e('Lorem ipsum dolor sit amet consectetur.','novellite'); ?></h3>
                 <?php } ?>
                 </div>
             </div>

@@ -16,8 +16,8 @@ $wooprlx_data_center = '';
 $wooprlx_top_bottom =''; 
 }
 ?>        
-<section id="section8" class="woo-wrapper <?php echo $wooprlx_class;?>" data-center="<?php echo $wooprlx_data_center;?>"
-  data-top-bottom="<?php echo $wooprlx_top_bottom;?>" >
+<section id="section8" class="woo-wrapper <?php echo esc_attr($wooprlx_class);?>" data-center="<?php echo esc_attr($wooprlx_data_center);?>"
+  data-top-bottom="<?php echo esc_attr($wooprlx_top_bottom);?>" >
     <?php $woo_product = get_theme_mod('woo_shortcode','[recent_products]');
     ?>
     <div class="container">
@@ -31,7 +31,7 @@ $wooprlx_top_bottom ='';
                 <?php if (get_theme_mod('woo_desc_') != '') { ?>
                 <h3 class="section-subheading text-muted"><?php echo esc_textarea(get_theme_mod('woo_desc_','')); ?></h3>
                 <?php } else { ?>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h3 class="section-subheading text-muted"><?php esc_html_e('Lorem ipsum dolor sit amet consectetur.','novellite'); ?></h3>
                 <?php } ?>
             </div>
         </div>
