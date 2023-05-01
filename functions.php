@@ -44,8 +44,12 @@ function NovelLite_setup(){
 
         // Enqueue editor styles.
         add_editor_style( 'style-editor.css' );
+
+        add_editor_style( 'editor.css' );
         // Add support for responsive embedded content.
         add_theme_support( 'responsive-embeds' );
+
+        add_theme_support( 'custom-spacing' );
     // custom header
     $defaults = array(
     'default-image'          => '',
@@ -150,7 +154,6 @@ add_theme_support( 'custom-header', $defaults );
                 'active_filename' => 'themehunk-megamenu-plus/themehunk-megamenu.php',
             ),
         ) );
-    remove_theme_support( 'widgets-block-editor' );
 
 }
 add_action('after_setup_theme', 'NovelLite_setup');

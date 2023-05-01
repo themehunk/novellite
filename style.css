@@ -4,13 +4,13 @@ Theme URI: http://www.themehunk.com/product/novellite-one-page-wordpress-theme/
 Author: The ThemeHunk Team 
 Author URI: http://www.themehunk.com 
 Description: The NovelLite One Page Responsive ThemeHunk Theme for WordPress is simple, easy and beautiful theme with live customizer. Edit and check changes instantly. Novellite is fast & beautiful WordPress theme suitable for onepage, personal portfolio, business website and WooCommerce. NovelLite Theme supports widget areas (two in the sidebar, four in the footer) and featured images (thumbnails for gallery, blog posts). It has multiple useful section (services, testimonial, WooCommerce, pricing, recent post, team, contact us). Contact section with lead capture functionality. This free theme is very helpful for entrepreneur to showcase their business features. Also this single page theme is very helpful for photography site. Drag and drop section scrolling and woocommerce compatible.
-Version: 1.7.3
-Tested up to:  6.1
+Version: 1.7.4
+Tested up to:  6.2
 Requires at least: 5.0
 Requires PHP: 5.6
 License: GNU General Public License v2 or later
 License URI: license.txt 
-Tags: two-columns, right-sidebar, custom-menu, custom-background, threaded-comments,editor-style, translation-ready, full-width-template, flexible-header, sticky-post, theme-options, one-column, e-commerce, entertainment, photography
+Tags: wide-blocks, block-patterns, block-styles, editor-style, two-columns, right-sidebar, custom-menu, custom-background, threaded-comments, translation-ready, full-width-template, flexible-header, sticky-post, theme-options, one-column, e-commerce, entertainment, photography
 Text Domain: novellite
 */
 
@@ -213,11 +213,12 @@ a img.aligncenter {
     z-index: 100000; /* Above WP toolbar. */
 }
 
-
 .menu li .active {
     background: #fec503;
 }
-
+.outer-footer .menu li .active{
+    background: none;
+}
 .img-centered {
     margin: 0 auto;
 }
@@ -3115,8 +3116,8 @@ Back to top
     font-weight: bold;
     padding: 9px 10px;
     position: fixed;
-    right: 10px;
-    bottom: 10px;
+    right: 21px;
+    bottom: 152px;
     width: 40px;
     z-index: 999;
     background: #fec503;

@@ -1,10 +1,10 @@
 === Theme: NovelLite Onepage Wordpress Theme===
 Contributors: ThemeHunk
-Tags: two-columns, right-sidebar, custom-menu, custom-background, threaded-comments, editor-style, translation-ready, full-width-template, flexible-header, sticky-post, theme-options, one-column, e-commerce, entertainment, photography
+Tags: wide-blocks, block-patterns, block-styles, editor-style, two-columns, right-sidebar, custom-menu, custom-background, threaded-comments, translation-ready, full-width-template, flexible-header, sticky-post, theme-options, one-column, e-commerce, entertainment, photography
 Requires at least: 5.0
-Tested up to: 6.1
+Tested up to: 6.2
 Requires PHP: 5.6
-Stable tag: 1.7.3
+Stable tag: 1.7.4
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -29,6 +29,14 @@ Yes, all our theme works on multisite.
 
 == Changelog ==
 = Theme Name NovelLite=
+
+= 1.7.4 =
+Update: Theme tested with latest WordPress 6.2.
+Update: Theme made compatible with Block Editor.
+New: Tags Added.
+New: Editor.css Added.
+New: Blank Template Added.
+Update: Style Improved.
 
 = 1.7.3 =
 * Footer setting changed.
