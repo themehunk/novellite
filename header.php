@@ -78,7 +78,7 @@ if (get_theme_mod('header_layout')=='split') { ?>
 </script>
 <?php } ?>  
 <!-- script to split menu -->  
-<nav class="navbar navbar-default navbar-fixed-top <?php echo $stickyhdr;?> <?php echo $cntralign_menu;?> <?php echo $split_menu; ?> <?php echo $hdr_trnsprnt; ?> <?php echo $last_btn; ?> <?php if (!is_front_page()) { echo "not_home"; }?>">
+<nav class="navbar navbar-default navbar-fixed-top <?php echo esc_attr($stickyhdr);?> <?php echo $cntralign_menu;?> <?php echo esc_attr($split_menu); ?> <?php echo esc_attr($hdr_trnsprnt); ?> <?php echo esc_attr($last_btn); ?> <?php if (!is_front_page()) { echo "not_home"; }?>">
 	<div class="header_container">
         <div class="container">		
 		<div class="row">
@@ -94,7 +94,7 @@ if (get_theme_mod('header_layout')=='split') { ?>
           } ?>
 				</div>
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
+                    <span class="sr-only"><?php esc_html_e('Toggle navigation','novellite'); ?></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>

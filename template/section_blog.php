@@ -18,20 +18,20 @@ $postprlx_top_bottom ='';
 }
 ?>         
 <!-- blog Section -->
-<section id="section3" class="<?php echo $postprlx_class;?>" data-center="<?php echo $postprlx_data_center;?>"
-  data-top-bottom="<?php echo $postprlx_top_bottom;?>">
+<section id="section3" class="<?php echo esc_attr($postprlx_class);?>" data-center="<?php echo esc_attr($postprlx_data_center);?>"
+  data-top-bottom="<?php echo esc_attr($postprlx_top_bottom);?>">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <?php if (get_theme_mod('blog_head_','') != '') { ?>
                 <h2 class="section-heading"><?php echo esc_html(get_theme_mod('blog_head_','')); ?></h2>
                 <?php } else { ?>
-                <h2 class="section-heading"><?php _e('Latest Post','novellite'); ?></h2>
+                <h2 class="section-heading"><?php esc_html_e('Latest Post','novellite'); ?></h2>
                 <?php } ?>
                 <?php if (get_theme_mod('blog_desc_','') != '') { ?>
                 <h3 class="section-subheading text-muted"><?php echo esc_textarea(get_theme_mod('blog_desc_','')); ?></h3>
                 <?php } else { ?>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h3 class="section-subheading text-muted"><?php esc_html_e('Lorem ipsum dolor sit amet consectetur.','novellite'); ?></h3>
                 <?php } ?>
             </div>
         </div>
@@ -69,7 +69,7 @@ $postprlx_top_bottom ='';
                             </div>
                             <div class="post_content_bottom">
                                 <span class="post_comment"><i class="fa fa-comments"></i><?php comments_popup_link(NO_CMNT, ONE_CMNT, '% ' . CMNT); ?></span>
-                                <span class="read_more"><a class="read_more" href="<?php the_permalink() ?>"><?php echo $rdmore; ?></a><i class="fa fa-share-square-o"></i></span>
+                                <span class="read_more"><a class="read_more" href="<?php the_permalink() ?>"><?php echo esc_html($rdmore); ?></a><i class="fa fa-share-square-o"></i></span>
                             </div>
                         </div>
                     </div>

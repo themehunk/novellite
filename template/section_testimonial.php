@@ -26,9 +26,9 @@ $testimonialprlx_top_bottom ='';
                 <div class="col-md-12">
                     <div class="testimonial-inner animated bottom-to-top">
                         <?php if (get_theme_mod('testimonial_heading','') != '') { ?>
-                        <h1 class="testimonial-header wow fadeInUp" data-wow-duration="2s"><?php echo esc_html(get_theme_mod('testimonial_heading','')); ?></h1>
+                        <h2 class="testimonial-header wow fadeInUp" data-wow-duration="2s"><?php echo esc_html(get_theme_mod('testimonial_heading','')); ?></h2>
                         <?php } else { ?>
-                        <h1 class="testimonial-header wow fadeInUp" data-wow-duration="2s"><?php _e('Show Multiple Testimonials.', 'novellite'); ?></h1>
+                        <h2 class="testimonial-header wow fadeInUp" data-wow-duration="2s"><?php _e('Show Multiple Testimonials.', 'novellite'); ?></h2>
                         <?php } ?>
                         <ul class="bxslider">
                             <!-- *Testimonial 1 Starts* -->

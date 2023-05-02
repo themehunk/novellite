@@ -16,7 +16,7 @@ $prlx_top_bottom ='';
 }
 ?>
 <div id="slides_full" class="NovelLite_slider">
-<div class="flexslider novelpro_slider <?php echo $prlx_class;?> <?php echo $bnt_style;?>">
+<div class="flexslider novelpro_slider <?php echo esc_attr($prlx_class);?> <?php echo esc_attr($bnt_style);?>">
 <ul class="slides slides-container">
 <!-- first-slide -->
 <?php if (get_theme_mod('first_slider_image','') != '') { $i++; ?>     
@@ -35,7 +35,7 @@ $prlx_top_bottom ='';
                         }
                         ?>"><?php echo esc_html(get_theme_mod('first_slider_heading')); ?></a></h1>
                     <?php } else { ?>
-                    <h1><?php _e('Business Theme','novellite');?></h1>
+                    <h1><?php esc_html_e('Business Theme','novellite');?></h1>
                 <?php } ?> 
                 <div class="clearfix"></div>
                 <?php if (get_theme_mod('first_slider_desc') != '') { ?>
@@ -60,14 +60,14 @@ $prlx_top_bottom ='';
                 <?php echo stripslashes(get_theme_mod('first_button_text')); ?>
                 </a>
                 <?php } else { ?>
-                <a href="#" class="theme-slider-button">Buy Now!</a>
+                <a href="#" class="theme-slider-button"><?php esc_html_e('Buy Now!','novellite'); ?></a>
                 <?php } ?>
                 </div>  
             </div>
         </li> 
  <!-- second-slide-->
  <?php if (get_theme_mod('second_slider_image','')) { $i++; ?>
-              <li data-center="<?php echo $prlx_data_center;?>"
+              <li data-center="<?php echo esc_attr($prlx_data_center);?>"
   data-top-bottom="<?php echo esc_attr($prlx_top_bottom);?>" style="background:url('<?php echo esc_url(get_theme_mod('second_slider_image')); ?>')">
                 <div class="slider_overlay"></div>
                 <?php if (get_theme_mod('second_slider_heading','') != '') { ?>
@@ -93,7 +93,7 @@ $prlx_top_bottom ='';
                 <?php echo stripslashes(get_theme_mod('second_button_text')); ?>
                 </a>
                 <?php } else { ?>
-                <a href="#" class="theme-slider-button">Buy Now!</a>
+                <a href="#" class="theme-slider-button"><?php esc_html_e('Buy Now!','novellite'); ?></a>
                 <?php } ?>
                 </div>
                 </div>
@@ -128,7 +128,7 @@ $prlx_top_bottom ='';
                 <?php echo stripslashes(get_theme_mod('third_button_text')); ?>
                 </a>
                 <?php } else { ?>
-                <a href="#" class="theme-slider-button">Buy Now!</a>
+                <a href="#" class="theme-slider-button"><?php esc_html_e('Buy Now!','novellite'); ?></a>
                 <?php } ?>
                 </div>
                 </div>
