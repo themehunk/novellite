@@ -22,7 +22,7 @@
 <h1><?php if (is_day()) : ?>
                         <?php printf(DAILY_ARCHIVES, get_the_date()); ?>
                     <?php elseif (is_month()) : ?>
-                        <?php printf(MONTHLY_ARCHIVES, get_the_date('F Y')); ?>
+                        <?php printf(NOVELLITE_MONTHLY_ARCHIVES, get_the_date('F Y')); ?>
                     <?php elseif (is_year()) : ?>
                         <?php printf(YEARLY_ARCHIVES, get_the_date('Y')); ?>
                     <?php else : ?>

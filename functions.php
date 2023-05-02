@@ -79,8 +79,8 @@ add_theme_support( 'custom-header', $defaults );
      */
     add_editor_style();
     register_nav_menus(array(
-        'home-menu' => HOME_MENU,
-        'frontpage-menu' => FRONT_MENU
+        'home-menu' => __('Main Menu', 'novellite'),
+        'frontpage-menu' => __('Front Menu', 'novellite')
     ));
 
 // on single blog post pages with comments open and threaded comments
