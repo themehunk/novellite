@@ -37,6 +37,7 @@ New: Tags Added.
 New: Editor.css Added.
 New: Blank Template Added.
 Update: Style Improved.
+Update: 404 Page Constant Removed.
 
 = 1.7.3 =
 * Footer setting changed.

@@ -1,13 +1,6 @@
 <?php
-define('THIS_IS_SOMEWHAT',__('This is somewhat embarrassing, isn&rsquo;t it?','novellite'));
-define('IT_SEEMS_WE',__('It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching, or one of the links below, can help.', 'novellite'));
-define('MOST_USED_CATEGORIES',__('Most Used Categories', 'novellite'));
-define('MONTHLY_ARCHIVES',__('Try looking in the monthly archives. %1$s', 'novellite'));
+define('NOVELLITE_MONTHLY_ARCHIVES',__('Try looking in the monthly archives. %1$s', 'novellite'));
 define('SORRY_NO_POST_MATCHED',__('Sorry, no posts matched your criteria.', 'novellite'));
-define('NOTHING_FOUND',__('Nothing Found here', 'novellite'));
-define('NOTHING_MATCHED',__('Sorry, but nothing matched your search criteria.', 'novellite'));
-define('CATEGORIES',__('Categories', 'novellite'));
-define('ARCHIVES',__('Archives', 'novellite'));
 define('BLOG_ARCHIVES',__('Blog Archives', 'novellite'));
 define('CATEGORY_ARCHIVES',__('Category Archives: %s', 'novellite'));
 define('PAGE',__('Page %s', 'novellite'));
@@ -58,8 +51,6 @@ define('CMNT',__('Comments','novellite'));
 define('POST_TAGGED_WITH',__('Post Tag With :', 'novellite'));
 define('CONTACT_SUBJECT',__('Subject', 'novellite'));
 define('CONTACT_SUBMIT',__('Submit Message', 'novellite'));
-define('HOME_MENU',__('Main Menu', 'novellite'));
-define('FRONT_MENU',__('Front Menu', 'novellite'));
 define('TESTIMONIAL_BG_IMAGE',get_template_directory_uri().'/images/testimonial-back.jpg');
 define('PRICING_BG_IMAGE',get_template_directory_uri().'/images/pricing.jpg');
 define('CONTACT_BG_IMAGE',get_template_directory_uri().'/images/contact-back.jpg');

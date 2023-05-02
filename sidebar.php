@@ -3,13 +3,13 @@
         <h3>Search:</h3>
         <?php get_search_form(); ?>
         <h3>
-           <?php echo CATEGORIES; ?>
+           <?php echo __('Categories', 'novellite'); ?>
         </h3>
         <ul>
             <?php wp_list_categories('title_li'); ?>
         </ul>
         <h3>
-           <?php echo ARCHIVES; ?>
+           <?php echo __('Archives', 'novellite'); ?>
         </h3>
         <ul>
             <?php wp_get_archives('type=monthly'); ?>
