@@ -1908,8 +1908,6 @@ animation: fadeIn 0.6s ease;
 .content-bar .post .post_meta a {
 	color: #545454;
 }
-.content-bar .post .post_meta a:hover {
-}
 .content-bar .post .post_meta li {
 	display: inline-block;
 	margin-right: 3px;
@@ -1919,14 +1917,8 @@ animation: fadeIn 0.6s ease;
 	content: '/';
 	margin-left: 6px;
 }
-.content-bar .post .post_meta .posted_by {
-}
-.content-bar .post .post_meta .posted_by {
-}
 .content-bar .post .post_meta li.posted_in:after {
 	content: "";
-}
-.content-bar .post .post_meta .post_tag {
 }
 .content-bar .post .post_meta .post_tag a {
 	margin-left: 0px;
@@ -2134,7 +2126,6 @@ sidebar .recent-post li li span.recent-date, .footer-widget-area .recent-post li
 sidebar .recent-post li li p, .footer-widget-area .recent-post li li p {
     margin-bottom:5px;
 }
-
 .outer-footer {
 background: #eee;
 border-top: 1px solid #ddd;
@@ -2148,8 +2139,8 @@ height:auto;
 position: relative;
     display: inline-block;
 }
-
-.sidebar .sidebar_widget h2{
+.sidebar .sidebar_widget h2,
+.wp-block-heading{
     font-size: 18px;
     font-weight: 400px;
 }
@@ -2167,8 +2158,6 @@ padding: 0px 8px 0px 8px;
 color: #fff;
 font-size: 50px;
 }
-
-
 
 /* Commentlist Style
 ========================================================*/
@@ -2414,7 +2403,6 @@ textarea#comment {
     margin-bottom: 20px;
     display: block;
     color: #ffffff;
-
     text-decoration: none;
     border: none;
     background: #fec503;
@@ -2457,9 +2445,6 @@ h3#reply-title {
     float: right;
     text-align: right;
     width: 50%;
-}
-#nav-single a {
-
 }
 #nav-single a:hover {
     color:#c12134;
@@ -2967,10 +2952,6 @@ transition: opacity .6s ease-in-out;
     margin-bottom:25px;
     text-align:center;
 }
-.content-bar .gallery ul.thumbnail li img{
-}
-.content-bar .gallery ul.thumbnail li img:hover{
-}
 .content-bar .gallery ul.thumbnail.col-1 li {
     width:200px;
     display:block;
@@ -2992,8 +2973,6 @@ transition: opacity .6s ease-in-out;
     position: absolute;
     top: 40%;
     left: 42%;
-}
-.content-bar .gallery ul.thumbnail.col-2 li img{
 }
 .content-bar .gallery ul.thumbnail.col-3 li {
 width: 222px;
