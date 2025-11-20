@@ -2,9 +2,9 @@
 Contributors: ThemeHunk
 Tags: wide-blocks, block-patterns, block-styles, editor-style, two-columns, right-sidebar, custom-menu, custom-background, threaded-comments, translation-ready, full-width-template, flexible-header, sticky-post, theme-options, one-column, e-commerce, entertainment, photography
 Requires at least: 5.0
-Tested up to: 6.2
+Tested up to: 6.8
 Requires PHP: 5.6
-Stable tag: 1.7.4
+Stable tag: 1.7.5
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -29,6 +29,10 @@ Yes, all our theme works on multisite.
 
 == Changelog ==
 = Theme Name NovelLite=
+
+= 1.7.5 =
+Update: Theme tested with latest WordPress 6.8.
+Update: Translation issue resolved.
 
 = 1.7.4 =
 Update: Theme tested with latest WordPress 6.2.

@@ -4,8 +4,8 @@ Theme URI: http://www.themehunk.com/product/novellite-one-page-wordpress-theme/
 Author: The ThemeHunk Team 
 Author URI: http://www.themehunk.com 
 Description: The NovelLite One Page Responsive ThemeHunk Theme for WordPress is simple, easy and beautiful theme with live customizer. Edit and check changes instantly. Novellite is fast & beautiful WordPress theme suitable for onepage, personal portfolio, business website and WooCommerce. NovelLite Theme supports widget areas (two in the sidebar, four in the footer) and featured images (thumbnails for gallery, blog posts). It has multiple useful section (services, testimonial, WooCommerce, pricing, recent post, team, contact us). Contact section with lead capture functionality. This free theme is very helpful for entrepreneur to showcase their business features. Also this single page theme is very helpful for photography site. Drag and drop section scrolling and woocommerce compatible.
-Version: 1.7.4
-Tested up to:  6.2
+Version: 1.7.5
+Tested up to:  6.8
 Requires at least: 5.0
 Requires PHP: 5.6
 License: GNU General Public License v2 or later
@@ -494,6 +494,12 @@ color:#fff;
 background:#fec503;
 color:#fff;
 }
+.sidebar footer{
+    background: initial;
+}
+
+
+
  @media only screen and (min-width: 769px){
 #section1 .col-md-4,.w3eden .col-md-4 {
     width: 33.33333333%;
