@@ -4,8 +4,8 @@ Theme URI: http://www.themehunk.com/product/novellite-one-page-wordpress-theme/
 Author: The ThemeHunk Team 
 Author URI: http://www.themehunk.com 
 Description: The NovelLite One Page Responsive ThemeHunk Theme for WordPress is simple, easy and beautiful theme with live customizer. Edit and check changes instantly. Novellite is fast & beautiful WordPress theme suitable for onepage, personal portfolio, business website and WooCommerce. NovelLite Theme supports widget areas (two in the sidebar, four in the footer) and featured images (thumbnails for gallery, blog posts). It has multiple useful section (services, testimonial, WooCommerce, pricing, recent post, team, contact us). Contact section with lead capture functionality. This free theme is very helpful for entrepreneur to showcase their business features. Also this single page theme is very helpful for photography site. Drag and drop section scrolling and woocommerce compatible.
-Version: 1.7.5
-Tested up to:  6.8
+Version: 1.7.6
+Tested up to:  7.0
 Requires at least: 5.0
 Requires PHP: 5.6
 License: GNU General Public License v2 or later
@@ -3136,12 +3136,6 @@ section.woo-wrapper {
 .woocommerce-page a {
 	color: #000;
 }
-.woocommerce #content div.product div.summary,
-.woocommerce div.product div.summary,
-.woocommerce-page #content div.product div.summary,
-.woocommerce-page div.product div.summary {
-	width: 48%;
-}
 
 /* summary */
 .woocommerce #content div.product .product_title,
@@ -3745,13 +3739,13 @@ margin-bottom:40px;
 .woocommerce-page span.onsale {
 min-height: 32px;
   min-width: 32px;
-  width: 53px;
-  height: 53px;
+  width: 39px;
+  height: 39px;
   padding: 0;
   font-weight: bold;
   position: absolute;
   text-align: center;
-  line-height: 53px;
+  line-height: 39px;
   right: auto;
   top: 0;
   left: 0;
@@ -3760,19 +3754,13 @@ min-height: 32px;
   background-color: #fec503;
   color: #ffffff;
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 9px;
   -webkit-border-radius: 50%;
   border-radius: 50%;
+  display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
-
-/* Related Product */
-.woocommerce .related ul li.product,
-.woocommerce .related ul.products li.product,
-.woocommerce-page .related ul li.product, 
-.woocommerce-page .related ul.products li.product {
-	width: auto;
-}
-
 /* Product price */
 .woocommerce ul.products li.product .price,
 .woocommerce-page ul.products li.product .price {
@@ -4760,4 +4748,79 @@ color:#fff;
 height:15px;
 width:15px!important;
 padding:0;
+}
+
+
+#wp-comment-cookies-consent{
+    float: left;
+}
+li .th-theme-actions-wrapper .thw-add-to-wishlist-button svg{
+    width: 14px!important;
+    height: 14px!important;
+}
+li .th-theme-actions-wrapper{
+    margin-top: 18px;
+}
+
+.summary .th-wishlist-single a .thw-to-browse-text, 
+.summary .th-wishlist-single a .thw-to-add-text {
+    display: none;
+}
+
+.summary .th-product-compare-btn.icon_type .text {
+    display: none;
+}
+
+.woocommerce .entry-summary .thw-add-to-wishlist-button-wrap, 
+.woocommerce  .summary .thunk-compare {
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    color: #111;
+    justify-content: center;
+    align-items: center;
+    height: 34px;
+    line-height: 34px;
+    width: 34px;
+    background: transparent;
+    text-align: center;
+    font-weight: normal;
+    min-width: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 9px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.woocommerce  .summary  .th-product-compare-btn.icon_type .icon{
+    margin: 0;
+}
+li .th-theme-actions-wrapper .thw-add-to-wishlist-button, 
+li .th-theme-actions-wrapper .th-product-compare-btn.btn_type, 
+li .th-theme-actions-wrapper .th-product-compare-btn.icon_type{
+    line-height: 14px;
+    color: #111;
+}
+.woocommerce  .summary .variations,
+li .variations {
+    text-align: left;
+}
+.related.products h2{
+    margin-top: 9px;
+    margin-bottom: 25px;
+}
+@media screen and (max-width: 767px){
+    li .thw-add-to-wishlist-button-wrap .thw-to-browse-text, 
+ li  .thw-add-to-wishlist-button-wrap .thw-to-add-text {
+    display: none;
+}
+
+    li .th-product-compare-btn.icon_type .text {
+    display: none;
+}
+
+.woocommerce ul.products[class*=columns-] li.product, .woocommerce-page ul.products[class*=columns-] li.product{
+    margin-bottom: 2%;
+}
 }
